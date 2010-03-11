@@ -1,0 +1,13 @@
+HOW TO USE
+
+import matplotlib_backend_fr.tk
+import Tkinter
+tk = Tkinter.Tk()
+f = matplotlib_backend_fr.FigureAxes()
+k = matplotlib_backend_fr.tk.KernelFigureAxes(tk, f)
+
+Pan with left and right button on the figure.
+Double-click left on the figure.
+Double-click right on the figure.
+
+For more info on how to instantiate FigureAxes, see source code.
